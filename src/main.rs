@@ -1,6 +1,9 @@
 extern crate iron;
 
-use iron::prelude::*;
+use iron::prelude::Iron;
+use iron::prelude::Request;
+use iron::prelude::Response;
+use iron::prelude::IronResult;
 use iron::status;
 
 fn main() {
